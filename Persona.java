@@ -15,7 +15,7 @@ public class Persona {
     /* Metodo SETTER */
     /* Cuando tengo atributos provados, con esto, puedo hacer una
     excepcion para poder trabajar con el */
-    public void setNombres(String nombres, Sting Apellido, String Rut){
+    public void setNombres(String nombres, String Apellido, String Rut){
         this.Nombres = nombres;
     }
     
