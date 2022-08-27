@@ -9,7 +9,7 @@ public class Principal {
         */
         Persona miPersona = new Persona();
         miPersona.Rut = "14.565.789-4";
-        miPersona.Nombres = "SOTO";
+        /* miPersona.Nombres = "SOTO"; */
         miPersona.Apellidos = "SOTO";
         
         String rut = miPersona.Rut;
@@ -17,8 +17,10 @@ public class Principal {
         System.out.println(miPersona);
         System.out.println(" ");
         System.out.println("Rut: " +rut);
+        /* System.out.println(" "); */
+        /* System.out.println(miPersona.Nombres + " " + miPersona.Rut); */
         System.out.println(" ");
-        System.out.println(miPersona.Nombres + " " + miPersona.Rut);
+        System.out.println(miPersona.getNombres());
         System.out.println(" ");
     }
 }
